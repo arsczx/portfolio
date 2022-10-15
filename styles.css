@@ -1,0 +1,46 @@
+
+#aboutMe {
+    height: 70vh;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+#travel, #porten {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;    
+    color: #070707;
+}
+#portfolio {
+    background-color: #F6F6F6;
+}
+header {
+    height: 10vh;
+}
+.main hr {
+    height: 1px;
+    background-color: #828282;
+}
+header a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+header a:hover {
+    color: black;
+}
+.lang {
+    transform: rotate(0deg);
+}
+main .row img {
+     width: 100%;
+}
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+    .lang {
+        transform: rotate(-90deg);
+    }
+}
